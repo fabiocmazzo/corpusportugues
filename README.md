@@ -13,4 +13,6 @@ Ajudas bem-vindas:
 * Corpus diversos do Português;
 * Modelos prontos; 
 
+## Convertendo um dump Wikipedia para somente texto
 
+O pré-processamento do dump do Wikipedia é feita por uma ótima ferramenta, extremamente performática e licenciada sob a licença MIT. Ela é desenvolvida em uma linguagem não muito comum, a Nim, mas ela gera binários para várias plataformas. Mais detalhes pode ser encontrados no repositório do Nim: https://github.com/rspeer/wiki2text
