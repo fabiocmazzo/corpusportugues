@@ -21,4 +21,8 @@ Por padrão o wiki2text inclui o header de cada artigo no formato: == [titulo] =
 
 ``` bunzip2 -c dump_wikipedia_compactado.xml.bz2 | ./wiki2text | grep -v '^=' > ptwiki.txt ```
 
+## Licença dos dumps Wikipedia e os corpus gerados
+
+A linceça dos dumps e dos corpus gerados a partir do Wikipedia seguem o licensiamento do Wikipedia, disponível em https://dumps.wikimedia.org/legal.html
+
 
