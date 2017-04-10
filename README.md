@@ -21,6 +21,11 @@ Por padrão o wiki2text inclui o header de cada artigo no formato: == [titulo] =
 
 ``` bunzip2 -c dump_wikipedia_compactado.xml.bz2 | ./wiki2text | grep -v '^=' > ptwiki.txt ```
 
+## Mais do que artigos
+
+Caso deseje um corpus com linguagem mais informal, é só incluir também os metadados do Wikipedia, pois isso inclui as discussões nos artigos, que é geralmente feita por mensagens mais informais entre os membros do Wikipedia. Geralmente quanto mais polêmico o artigo é, mais discussão e mais informalidade, veja um exemplo na seguinte página: https://pt.wikipedia.org/wiki/Discussão:Inri_Cristo
+
+
 ## Licença dos dumps Wikipedia e os corpus gerados
 
 A linceça dos dumps e dos corpus gerados a partir do Wikipedia seguem o licenciamento do Wikipedia, disponível em https://dumps.wikimedia.org/legal.html
