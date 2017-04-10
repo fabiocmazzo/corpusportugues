@@ -16,3 +16,9 @@ Ajudas bem-vindas:
 ## Convertendo um dump Wikipedia para somente texto
 
 O pré-processamento do dump do Wikipedia é feita por uma ótima ferramenta, extremamente performática e licenciada sob a licença MIT. Ela é desenvolvida em uma linguagem não muito comum, a Nim, mas ela gera binários para várias plataformas. Mais detalhes pode ser encontrados no repositório do Nim: https://github.com/rspeer/wiki2text
+
+Por padrão o wiki2text inclui o header de cada artigo no formato: == [titulo] == , é necessário remover com grep -v para ficar um corpus mais limpo. O comando para a extração do texto é semelhante a:
+
+``` bunzip2 -c dump_wikipedia_compactado.xml.bz2 | ./wiki2text | grep -v '^=' > ptwiki.txt ```
+
+
