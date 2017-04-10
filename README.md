@@ -23,6 +23,8 @@ Por padrão o wiki2text inclui o header de cada artigo no formato: == [titulo] =
 
 ## Licença dos dumps Wikipedia e os corpus gerados
 
-A linceça dos dumps e dos corpus gerados a partir do Wikipedia seguem o licensiamento do Wikipedia, disponível em https://dumps.wikimedia.org/legal.html
+A linceça dos dumps e dos corpus gerados a partir do Wikipedia seguem o licenciamento do Wikipedia, disponível em https://dumps.wikimedia.org/legal.html
 
+## Planejado
 
+Está planejado o desenvolvimento de um webcrawler que leia os principais sites de notícias em português e faça a extração para um Corpus, provavelmente não poderemos compartilhar o corpus por motivos de licenciamento do conteúdo, mas iremos disponibilizar o webcrawler e todas as instruções necessárias.
