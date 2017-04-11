@@ -28,6 +28,7 @@ Caso deseje um corpus com linguagem mais informal, é só incluir também os met
 ## Downloads
 
 Como os corpus são muito grandes não é possível incluir noo Github, estão disponíveis para download através dos links:
+
 | Corpus            | Qtde Palavras | Link                                                          |
 |-------------------|---------------|---------------------------------------------------------------|
 | Artigos Wikipedia | 244.188.490   | http://fabiomazzo.com/corpusportugues/pt_wiki_244_188_490.zip |
