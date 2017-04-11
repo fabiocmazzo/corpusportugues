@@ -25,6 +25,13 @@ Por padrão o wiki2text inclui o header de cada artigo no formato: == [titulo] =
 
 Caso deseje um corpus com linguagem mais informal, é só incluir também os metadados do Wikipedia, pois isso inclui as discussões nos artigos, que é geralmente feita por mensagens mais informais entre os membros do Wikipedia. Geralmente quanto mais polêmico o artigo é, mais discussão e mais informalidade, veja um exemplo na seguinte página: https://pt.wikipedia.org/wiki/Discussão:Inri_Cristo
 
+## Downloads
+
+Como os corpus são muito grandes não é possível incluir noo Github, estão disponíveis para download através dos links:
+Corpus | Qtde de Palavras | Link
+------ | -----------------|------
+Artigos Wikipedia | 244.188.490 | http://fabiomazzo.com/corpusportugues/pt_wiki_244_188_490.zip
+
 
 ## Licença dos dumps Wikipedia e os corpus gerados
 
