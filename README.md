@@ -27,7 +27,7 @@ Caso deseje um corpus com linguagem mais informal, é só incluir também os met
 
 ## Downloads
 
-Como os corpus são muito grandes não é possível incluir noo Github, estão disponíveis para download através dos links:
+Como os corpus são muito grandes não é possível incluir no Github, estão disponíveis para download através dos links:
 
 | Corpus            | Qtde Palavras | Link                                                          |
 |-------------------|---------------|---------------------------------------------------------------|
