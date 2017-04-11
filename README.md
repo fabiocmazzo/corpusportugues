@@ -33,6 +33,14 @@ Como os corpus são muito grandes não é possível incluir no Github, estão di
 |-------------------|---------------|---------------------------------------------------------------|
 | Artigos Wikipedia | 244.188.490   | http://fabiomazzo.com/corpusportugues/pt_wiki_244_188_490.zip |
 
+Se quiser remover as pontuações do corpus basta usar o seguinte comando no bash:
+
+cat input_file | tr -d '[:punct:]' > output_file
+
+Exemplo: 
+
+cat pt_wiki_corpus.txt | tr -d '[:punct:]' > pt_wiki_corpus_without_punct.txt
+
 
 ## Licença dos dumps Wikipedia e os corpus gerados
 
