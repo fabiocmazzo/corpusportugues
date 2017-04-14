@@ -27,6 +27,8 @@ Caso deseje um corpus com linguagem mais informal, é só incluir também os met
 
 ## Downloads
 
+### Corpus
+
 Como os corpus são muito grandes não é possível incluir no Github, estão disponíveis para download através dos links:
 
 | Corpus            | Qtde Palavras | Link                                                          |
@@ -40,6 +42,15 @@ cat input_file | tr -d '[:punct:]' > output_file
 Exemplo: 
 
 cat pt_wiki_corpus.txt | tr -d '[:punct:]' > pt_wiki_corpus_without_punct.txt
+
+### Modelos
+
+| Modelo            | Tipo          | Link                                                          |
+|-------------------|---------------|---------------------------------------------------------------|
+| Mitie NLP         | total_word_feature_extractor   | http://fabiomazzo.com/corpusportugues/modelos/total_word_feature_extractor.zip |
+| Mitie NLP         | top_words   | http://fabiomazzo.com/corpusportugues/modelos/top_words.zip |
+| Mitie NLP         | word_vects   | http://fabiomazzo.com/corpusportugues/modelos/word_vects.zip |
+
 
 
 ## Licença dos dumps Wikipedia e os corpus gerados
