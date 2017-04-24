@@ -31,9 +31,10 @@ Caso deseje um corpus com linguagem mais informal, é só incluir também os met
 
 Como os corpus são muito grandes não é possível incluir no Github, estão disponíveis para download através dos links:
 
-| Corpus            | Qtde Palavras | Link                                                          |
-|-------------------|---------------|---------------------------------------------------------------|
-| Artigos Wikipedia | 244.188.490   | http://fabiomazzo.com/corpusportugues/pt_wiki_244_188_490.zip |
+| Corpus            | Qtde Palavras | Link                                                          |        Versão |
+|-------------------|---------------|---------------------------------------------------------------|---------------|
+| Artigos Wikipedia + Corpus Laps UFPA | 270.139.795 | http://fabiomazzo.com/corpusportugues/pt_wiki_270_139_795_v1_0_1.rar | 1.0.1 |
+| Artigos Wikipedia | 244.188.490   | http://fabiomazzo.com/corpusportugues/pt_wiki_244_188_490.zip | 1.0
 
 Se quiser remover as pontuações do corpus basta usar o seguinte comando no bash:
 
