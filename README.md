@@ -58,6 +58,8 @@ cat pt_wiki_corpus.txt | tr -d '[:punct:]' > pt_wiki_corpus_without_punct.txt
 
 A linceça dos dumps e dos corpus gerados a partir do Wikipedia seguem o licenciamento do Wikipedia, disponível em https://dumps.wikimedia.org/legal.html
 
-## Planejado
+## Chatbot
 
-Está planejado o desenvolvimento de um webcrawler que leia os principais sites de notícias em português e faça a extração para um Corpus, provavelmente não poderemos compartilhar o corpus por motivos de licenciamento do conteúdo, mas iremos disponibilizar o webcrawler e todas as instruções necessárias.
+Estou desenvolvendo um motor de um chatbot utilizando o Corpus, decidi abrir o código, disponibilizei no repositório: https://github.com/fabiocmazzo/dialogprocessor
+
+
