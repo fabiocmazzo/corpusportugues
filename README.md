@@ -60,6 +60,6 @@ A linceça dos dumps e dos corpus gerados a partir do Wikipedia seguem o licenci
 
 ## Chatbot
 
-Estou desenvolvendo um motor de um chatbot utilizando o Corpus, decidi abrir o código, disponibilizei no repositório: https://github.com/fabiocmazzo/dialogprocessor
+Estou desenvolvendo um motor de um chatbot utilizando o Corpus, caso queiram maiores informações, favor enviar um email.
 
 
