@@ -33,8 +33,8 @@ Como os corpus são muito grandes não é possível incluir no Github, estão di
 
 | Corpus            | Qtde Palavras | Link                                                          |        Versão |
 |-------------------|---------------|---------------------------------------------------------------|---------------|
-| Artigos Wikipedia + Corpus Laps UFPA | 270.139.795 | http://fabiomazzo.com/corpusportugues/pt_wiki_270_139_795_v1_0_1.rar | 1.0.1 |
-| Artigos Wikipedia | 244.188.490   | http://fabiomazzo.com/corpusportugues/pt_wiki_244_188_490.zip | 1.0
+| Artigos Wikipedia + Corpus Laps UFPA | 270.139.795 | https://s3-us-west-2.amazonaws.com/datamodelpublic/models/pt_wiki_270_139_795_v1_0_1.rar | 1.0.1 |
+| Artigos Wikipedia | 244.188.490   | https://s3-us-west-2.amazonaws.com/datamodelpublic/models/pt_wiki_244_188_490.zip | 1.0
 
 Se quiser remover as pontuações do corpus basta usar o seguinte comando no bash:
 
@@ -48,9 +48,9 @@ cat pt_wiki_corpus.txt | tr -d '[:punct:]' > pt_wiki_corpus_without_punct.txt
 
 | Modelo            | Tipo          | Link                                                          |
 |-------------------|---------------|---------------------------------------------------------------|
-| Mitie NLP         | total_word_feature_extractor   | http://fabiomazzo.com/corpusportugues/modelos/total_word_feature_extractor.zip |
-| Mitie NLP         | top_words   | http://fabiomazzo.com/corpusportugues/modelos/top_words.zip |
-| Mitie NLP         | word_vects   | http://fabiomazzo.com/corpusportugues/modelos/word_vects.zip |
+| Mitie NLP         | total_word_feature_extractor   | https://s3-us-west-2.amazonaws.com/datamodelpublic/models/modelos/total_word_feature_extractor.zip |
+| Mitie NLP         | top_words   | https://s3-us-west-2.amazonaws.com/datamodelpublic/models/modelos/top_words.zip|
+| Mitie NLP         | word_vects   | https://s3-us-west-2.amazonaws.com/datamodelpublic/models/modelos/word_vects.zip |
 
 
 
